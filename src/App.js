@@ -13,7 +13,7 @@ import React, { Component } from "react";
 // import Student1 from './Student1';
 // import State1 from './State1';
 // import Events ,{Blog,posts} from './Events';
-import GetForm,{Hideshow , Car,Formsubmit, LogginData,LogginForm} from './Formdata';
+import GetForm, { Hideshow, Car, Formsubmit, LogginData, LogginForm } from './Formdata';
 
 
 class Display extends Component {
@@ -51,16 +51,16 @@ class Display extends Component {
   }
 }
 
-const name = {
-  firstname: "sahil",
-  lastname: "kotadiya"
-};
+// const name = {
+//   firstname: "sahil",
+//   lastname: "kotadiya"
+// };
 
-function Fullname(name) {
-  return (
-    <h1>{name.firstname + name.lastname}</h1>
-  );
-}
+// function Fullname(name) {
+//   return (
+//     <h1>{name.firstname + name.lastname}</h1>
+//   );
+// }
 
 
 function App() {
