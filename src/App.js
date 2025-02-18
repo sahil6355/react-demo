@@ -13,8 +13,8 @@ import React, { Component } from "react";
 // import Student1 from './Student1';
 // import State1 from './State1';
 // import Events ,{Blog,posts} from './Events';
-import GetForm, { Hideshow, Car, Formsubmit, LogginData, LogginForm } from './Formdata';
-
+// import GetForm, { Hideshow, Car, Formsubmit, LogginData, LogginForm } from './Formdata';
+import Componentdidupdate from './Componentdidupdate';
 
 class Display extends Component {
   constructor() {
@@ -72,6 +72,8 @@ function App() {
   // }
   return (
     <div className="App">
+
+      <Componentdidupdate />
       {/* <User /> */}
       {/* <App2 /> */}
       {/* <Test2 /> */}
@@ -85,7 +87,7 @@ function App() {
       {/* {Fullname(name)} */}
       {/* <Display /> */}
 
-      <LogginForm />
+      {/* <LogginForm />
 
       <GetForm />
 
@@ -95,7 +97,7 @@ function App() {
 
       <Formsubmit />
 
-      <LogginData />
+      <LogginData /> */}
 
     </div>
   );
